@@ -10,7 +10,7 @@ variable "instance_name" {
 }
 
 variable "zone_id" {
-   default = "Z09559443P6FSJNNDKGR3"  #Replace with your zone ID
+   default = "Z01932751K3CM859RKY5G"  #Replace with your zone ID
 }
 
 variable "domain_name" {

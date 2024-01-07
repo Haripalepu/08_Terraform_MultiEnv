@@ -8,10 +8,10 @@ terraform {
   }
 
   backend "s3" { #To store statefile in S3. we need to add te below details
-    # bucket = "aws-devops-terrafrombucket"
-    # key    = "TestingStateFile"
-    # region = "us-east-1"
-    # dynamodb_table = "aws-devops-terrafrombucket" #Commented because the actual configaration is in backend.tf files.
+    #  bucket = "aws-devops-terrafrombucket"
+    #  key    = "TestingStateFile"
+    #  region = "us-east-1"
+    #  dynamodb_table = "aws-devops-terrafrombucket" #Commented because the actual configaration is in backend.tf files.
   }
 }
 
